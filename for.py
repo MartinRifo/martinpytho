@@ -71,7 +71,38 @@
 # print("la cantidad de vocales es: ",vocales)
 # print("la cantidad de consonantes es: ",conso)
 
+# n= "carolina"
+# name="alonso robles"
+# print(name[0])
+# print(len(name))
+# print(n.strip())
+# print(name.upper())
+# print(name.lower())
+# print(name.replace("Robles , parra"))
+# print (name.split())
+
+# ejercicios
+#pedir a la clave al usuario y verificar que sea shazam independiente de su case
+
+# clave=input("ingrese su clave")
+# if clave.() == "SHAZAM":
+#    print("clave correcta")
+# else: 
+#    print("clave incorrecta")
+
+# code="shazam"
+
+# code=inout("ingrese su clave")
+# if clave==code.upper ():
+#    print("clave correcta")
+# else 
+#    print ("clave incorrecta")
 
 
+# pin=int (input("ingrese su pin"))
+# if len (str(pin))==4:
+#    print("pin creado")
+# else:
+#    print ("pin erroneo")
     
 
