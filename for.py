@@ -104,5 +104,34 @@
 #    print("pin creado")
 # else:
 #    print ("pin erroneo")
-    
 
+
+
+# definir 2 candidatos. Preguntar la cantidad de votantes
+# pregunar a cada votante por quien votara mostrando las alternativas. Contar los votos y mostrar resultados.
+#Definir el ganador y considerar un empate
+
+print("ingrese el nombre del candidato 1: ")
+candidato1=input()
+print("ingrese el nombre del candidato 2")
+candidato2=input()
+print("ingrese la cantidad de votantes: ")
+votantes=int(input())
+votos_candidato1=0
+votos_candidato2=0
+for i in range(votantes):
+    print("votante", i+1, "por quien votara? (1 para", candidato1, "2 para", candidato2, ")")
+    voto=int(input())
+    if voto==1:
+        votos_candidato1=votos_candidato1+1
+    elif voto==2:
+        votos_candidato2=votos_candidato2+1
+    else:
+        print("voto invalido")
+
+if votos_candidato1>votos_candidato2:
+    print("el ganador es", candidato1)
+elif votos_candidato2>votos_candidato1:
+    print("el ganador es", candidato2)
+else:
+    print("es un empate")
