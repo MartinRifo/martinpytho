@@ -62,5 +62,30 @@
 #llamarlos desde un menu
 
 
+# while True: 
+#     print("1.- programa 1")
+#     print("2.- programa 2")
+#     print("3.- programa 3")
+#     print("4.- salir")
+#     op=int(input("ingrese una opcion: "))
+#     if op==1:
+#         #codigo del programa 1
+#         pass
+#     elif op==2:
+#         #codigo del programa 2
+#         pass
+#     elif op==3:
+#         #codigo del programa 3
+#         pass
+#     elif op==4:
+#         print("saliendo")
+#         break
+#     else:
+#         print("opcion invalida")
 
-        
+      
+
+# cont=1
+# while cont<=3:
+#     print("hola", cont)
+#     cont=cont+1

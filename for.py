@@ -111,27 +111,60 @@
 # pregunar a cada votante por quien votara mostrando las alternativas. Contar los votos y mostrar resultados.
 #Definir el ganador y considerar un empate
 
-print("ingrese el nombre del candidato 1: ")
-candidato1=input()
-print("ingrese el nombre del candidato 2")
-candidato2=input()
-print("ingrese la cantidad de votantes: ")
-votantes=int(input())
-votos_candidato1=0
-votos_candidato2=0
-for i in range(votantes):
-    print("votante", i+1, "por quien votara? (1 para", candidato1, "2 para", candidato2, ")")
-    voto=int(input())
-    if voto==1:
-        votos_candidato1=votos_candidato1+1
-    elif voto==2:
-        votos_candidato2=votos_candidato2+1
-    else:
-        print("voto invalido")
+# print("ingrese el nombre del candidato 1: ")
+# candidato1=input()
+# print("ingrese el nombre del candidato 2")
+# candidato2=input()
+# print("ingrese la cantidad de votantes: ")
+# votantes=int(input())
+# votos_candidato1=0
+# votos_candidato2=0
+# for i in range(votantes):
+#     print("votante", i+1, "por quien votara? (1 para", candidato1, "2 para", candidato2, ")")
+#     voto=int(input())
+#     if voto==1:
+#         votos_candidato1=votos_candidato1+1
+#     elif voto==2:
+#         votos_candidato2=votos_candidato2+1
+#     else:
+#         print("voto invalido")
 
-if votos_candidato1>votos_candidato2:
-    print("el ganador es", candidato1)
-elif votos_candidato2>votos_candidato1:
-    print("el ganador es", candidato2)
-else:
-    print("es un empate")
+# if votos_candidato1>votos_candidato2:
+#     print("el ganador es", candidato1)
+# elif votos_candidato2>votos_candidato1:
+#     print("el ganador es", candidato2)
+# else:
+#     print("es un empate")
+
+
+
+
+# num=int (input("ingrese un numero"))
+# for i in range(num):
+#     print ("repeticion", i +1)
+
+#definir 2 candidatos, preguntar la cantidad de votantes
+#preguntar a cada votante por quien votara
+# # mostrando las alaternativas.Contar los votos y mostrar resultados
+#definir el ganador y considerar un empate
+
+# c1= "candidato1"
+# c2= "candidato2"
+# c1=0
+# c2=0
+# cantv=int(input("ingrese la cantidad de votantes: "))
+# for i in range (cantv):
+#     print("votante", i+1, "por quien votara? (1 para", c1, "2 para", c2, ")")
+#     voto=int(input())
+#     if voto==1:
+#         c1=c1+1
+#     elif voto==2:
+#         c2=c2+1
+#     else:
+#         print("voto invalido")
+# if c1>c2:
+#     print("el ganador es", c1)
+# elif c2>c1:
+#     print("el ganador es", c2)
+# else:
+#     print("es un empate")
