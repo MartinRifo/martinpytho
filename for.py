@@ -168,3 +168,10 @@
 #     print("el ganador es", c2)
 # else:
 #     print("es un empate")
+
+
+
+# frase=input("ingrese una frase: ")
+
+# for i in frase:
+#     print(i)
